@@ -1,0 +1,37 @@
+{
+  "name": "mongohaku",
+  "version": "1.0.0",
+  "description": "Pieni hakusovellus",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sikned/mongohaku.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "search",
+    "mongoose"
+  ],
+  "author": "Sami Kettunen <seikettune@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sikned/mongohaku/issues"
+  },
+  "homepage": "https://github.com/Sikned/mongohaku#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "mongoose": "^4.9.8",
+    "mongoose-search-plugin": "^0.1.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
